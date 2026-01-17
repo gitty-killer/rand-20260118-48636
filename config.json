@@ -1,0 +1,13 @@
+{
+  "project_title": "Campaign Performance Monitor",
+  "goal": "Score marketing campaigns and detect underperformers.",
+  "entity_name": "campaign",
+  "amount_label": "spend",
+  "score_label": "roi_score",
+  "categories": [
+    "search",
+    "social",
+    "email",
+    "partner"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "campaign-01",
+      "name": "campaign_01",
+      "category": "search",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-02",
+      "name": "campaign_02",
+      "category": "social",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-03",
+      "name": "campaign_03",
+      "category": "email",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-04",
+      "name": "campaign_04",
+      "category": "partner",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "campaign-05",
+      "name": "campaign_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-06",
+      "name": "campaign_06",
+      "category": "social",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-07",
+      "name": "campaign_07",
+      "category": "email",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-08",
+      "name": "campaign_08",
+      "category": "partner",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "campaign-09",
+      "name": "campaign_09",
+      "category": "search",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-10",
+      "name": "campaign_10",
+      "category": "social",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-11",
+      "name": "campaign_11",
+      "category": "email",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "campaign-12",
+      "name": "campaign_12",
+      "category": "partner",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "campaign-12",
+    "issue_count": 1
+  }
+}
